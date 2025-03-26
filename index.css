@@ -1,37 +1,62 @@
+/* style.css */
 body {
-    border: 8px solid orange;
-    padding: 30px;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
 }
 
-a {
-    color: orange;
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
 }
 
-img {
-    width: 200px;
-    display: block;
-    margin: 0 auto;
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
-    text-align: center;
-    font-size: 50px;
+    font-size: 36px;
+    color: #333;
 }
 
-h3 {
-    text-align: center;
+h2 {
+    font-size: 24px;
+    color: #666;
 }
 
-legend {
-    font-weight: bold;
+.profile {
+    margin-top: 20px;
 }
 
-button {
-    border: 1px solid black;
-    text-decoration: underline;
-    color: white;
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
-.button1 {
-    background-color: orange;
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
 }
